@@ -10,7 +10,8 @@ Add custom connections to your Discord profile!
 <br>
 ∙ To remove, just change the script to <b>DELETE</b> instead of <b>PUT</b>, make sure you use the same integers in the request!
 <br>
-<center><h3>Feel free to test other endpoints, "leaugeoflegends" & "skype" appear to work as well. </h3> </center>
+<center><h3>Feel free to test other endpoints, "leaugeoflegends" & "skype" appear to work as well. </h3> 
+  <br><i>Be careful of the "contacts" endpoint, it will cause your Discord to crash until removed!</i></center>
 </p>
 <br>
 <br>
