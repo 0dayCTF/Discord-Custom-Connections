@@ -1,8 +1,8 @@
 import requests
 
-url = "https://discordapp.com/api/v6/users/@me/connections/battlenet/RANDOMNUMBERS"
+url = "https://discordapp.com/api/v6/users/@me/connections/battlenet/RANDOMINTEGER"
 
-payload = "{\"name\": \"CUSTOM COONECTION NAME\",\n\"visibility\": 1\n}"
+payload = "{\"name\": \"CUSTOM CONNECTION NAME\",\n\"visibility\": 1\n}"
 headers = {
     'authorization': "DISCORD TOKEN",
     'accept-encoding': "gzip, deflate, br",
