@@ -18,6 +18,5 @@ Add custom connections to your Discord profile!
 <h2>PoC</h2>
 <img src="https://i.imgur.com/cvzG95Q.png">
 <br>
-<h3><i>2/16/2020 | Lew fixed the protocol, to work with the new patch</i></h3>
 <i>I will be adding some more methods in the future, check back for an update</i>
 <br>
