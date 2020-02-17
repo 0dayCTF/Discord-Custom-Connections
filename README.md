@@ -6,7 +6,7 @@ Add custom connections to your Discord profile!
   <br>
   ∙  Change the token in the request to your own, and add some random integers after <i>/connections/battlenet/</i><b>HERE</b> 
   <br>
-∙ Using python, execute <b>CustomConnections.py</b>
+∙ Using python, execute <b>CustomConnections.py</b> (make sure you installed requests eg: pip install requests)
 <br>
 ∙ To remove, just change the script to <b>DELETE</b> instead of <b>PUT</b>, make sure you use the same integers in the request!
 <br>
@@ -19,4 +19,6 @@ Add custom connections to your Discord profile!
 <img src="https://i.imgur.com/cvzG95Q.png">
 <br>
 <br>
+<h3><i>2/16/2020 Lew fixed the protocol, to work with the new patch</i></h3>
 <i>I will be adding some more methods in the future, check back for an update</i>
+<br>
