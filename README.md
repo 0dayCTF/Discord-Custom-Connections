@@ -12,7 +12,6 @@ Add custom connections to your Discord profile!
   <br><i>Be careful of the "contacts" endpoint, it will cause your Discord to crash until removed!</i></center>
 </p>
 <br>
-<br>
 <h2>PoC</h2>
 <img src="https://i.imgur.com/cvzG95Q.png">
 <br>
