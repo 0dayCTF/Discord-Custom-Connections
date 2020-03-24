@@ -1,10 +1,39 @@
 import requests
+import random
+import os
  
-url = "https://discordapp.com/api/v6/users/@me/connections/skype/RANDOMINTEGER"
- 
-payload = "{\"name\": \"CUSTOM NAME HERE\",\n\"visibility\": 1\n}"
+randomNumber = random.randint(100000, 999999) # 100000 - 999999
+
+os.system("cls")
+
+print("What game do you want? (Enter number)")
+print("1. Skype")
+print("2. League Of Legends")
+print("3. Battle Net")
+game = input("> ")
+
+os.system("cls")
+
+print("What is the name of the connection?")
+name = input("> ")
+
+os.system("cls")
+
+print("What is your token?")
+token = input("> ")
+
+if (game == "1"):
+    game = "skype"
+elif (game == "2"):
+    game = "leagueoflegends"
+else:
+    game = "battlenet"
+
+url = "https://discordapp.com/api/v6/users/@me/connections/" + game +"/" + str(randomNumber)
+
+payload = "{\"name\": \"" + name + "\",\n\"visibility\": 1\n}".encode('utf-8').decode('latin-1')
 headers = {
-    'authorization': "YOUR TOKEN HERE",
+    'authorization': token,
     'accept-encoding': "gzip, deflate, br",
     'accept-language': "en-US",
     'user-agent': "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) discord/0.0.305 Chrome/69.0.3497.128 Electron/4.0.8 Safari/537.36",

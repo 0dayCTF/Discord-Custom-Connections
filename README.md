@@ -1,4 +1,8 @@
 # Discord Custom Connections
+
+<h1>This version supports emojis and Battle.net connection!</h1>
+<h1>24/03/2020 - Added a menu (it makes everything a lot easier)</h1>
+<br>
 Add custom connections to your Discord profile!
 <h2>Submitting the PUT request</h2>
 <p>
@@ -10,13 +14,16 @@ Add custom connections to your Discord profile!
 <br>
 ∙ To remove, just change the script to <b>DELETE</b> instead of <b>PUT</b>, make sure you use the same integers in the request!
 <br>
-<center><h3>Feel free to test other endpoints, "leaugeoflegends" & "skype" appear to work as well. </h3> 
-  <br><i>Be careful of the "contacts" endpoint, it will cause your Discord to crash until removed!</i></center>
+<center>
+  <h3>Feel free to test other endpoints, "leaugeoflegends" & "skype" (& "battlenet") appear to work as well.</h3> 
+  <br>
+  <i>Be careful of the "contacts" endpoint, it will cause your Discord to crash until removed!</i>
+</center>
 </p>
 <br>
 <br>
 <h2>PoC</h2>
-<img src="https://i.imgur.com/cvzG95Q.png">
+<img src="https://i.imgur.com/u3YVxdc.png">
 <br>
 <i>I will be adding some more methods in the future, check back for an update</i>
 <br>
