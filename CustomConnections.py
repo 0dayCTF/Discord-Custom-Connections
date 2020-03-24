@@ -1,10 +1,13 @@
 import requests
 import random
 import os
- 
+
+def cls():
+    os.system('cls' if os.name=='nt' else 'clear') 
+
 randomNumber = random.randint(100000, 999999) # 100000 - 999999
 
-os.system("cls")
+cls()
 
 print("What game do you want? (Enter number)")
 print("1. Skype")
@@ -12,12 +15,12 @@ print("2. League Of Legends")
 print("3. Battle Net")
 game = input("> ")
 
-os.system("cls")
+cls()
 
 print("What is the name of the connection?")
 name = input("> ")
 
-os.system("cls")
+cls()
 
 print("What is your token?")
 token = input("> ")
