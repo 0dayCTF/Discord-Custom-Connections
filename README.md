@@ -1,6 +1,7 @@
 # Discord Custom Connections
 
-<h2>This version supports emojis and Battle.net connection!</h2> 
+<h1>This version supports emojis and Battle.net connection!</h1>
+<h1>24/03/2020 - Added a menu (it makes everything a lot easier)</h1>
 <br>
 Add custom connections to your Discord profile!
 <h2>Submitting the PUT request</h2>
