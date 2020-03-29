@@ -31,3 +31,4 @@ If you prefer to do it manually:
 <br>
 <i>I will be adding some more methods in the future, check back for an update</i>
 <br>
+
