@@ -17,7 +17,7 @@ First Navigate to Discord in the browser to find your [authorization token](http
 <h2>Alternatively:</h2>
 If you prefer to do it manually:
 
-* Download the `Python-Code/customconnections.py` file
+* Download the `Python-Code/CustomConnections.py` file
 * Navigate to Discord in the browser to find your [authorization token](https://discordhelp.net/discord-token)
 * Using python, execute CustomConnections.py (make sure you installed requests eg: pip install requests)
 * To remove, just change the script to <b>DELETE</b> instead of <b>PUT</b>, or just remove from Discord manually in your settings!
