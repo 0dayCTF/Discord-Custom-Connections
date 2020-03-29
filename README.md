@@ -5,7 +5,7 @@ Add custom connections to your Discord profile!
 First Navigate to Discord in the browser to find your [authorization token](https://discordhelp.net/discord-token)
 
 * On Windows:
-  - Download and extract the `windows-gui.zip` file
+  - Download and extract the `win-gui.zip` file
   - Double click on `exploit.bat`
   - The GUI will start, allowing you to add connections!
 * On Linux:
