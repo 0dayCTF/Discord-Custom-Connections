@@ -13,6 +13,8 @@ First Navigate to Discord in the browser to find your [authorization token](http
   - Open a terminal inside the directory (Right Click -> Open in terminal)
   - Type in `./exploit` and hit Enter
   - The GUI will start, allowing you to add connections!
+  
+  <img src="https://i.imgur.com/oDJZq9O.png">
 
 <h2>Alternatively:</h2>
 If you prefer to do it manually:
