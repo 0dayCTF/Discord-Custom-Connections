@@ -1,5 +1,5 @@
 # Discord Custom Connections
-Add custom connections to your Discord profile!
+Add custom connections to your Discord profile! (working on new exploit, Discord Patched old version)
 <h2>Using the exploit:</h2>
 
 First Navigate to Discord in the browser to find your [authorization token](https://discordhelp.net/discord-token)
