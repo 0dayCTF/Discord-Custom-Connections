@@ -3,7 +3,7 @@ import random
 import os
 
 def cls():
-    os.system('cls' if os.name=='nt' else 'clear') 
+    os.system('cls||clear') 
 
 randomNumber = random.randint(100000, 999999) # 100000 - 999999
 
